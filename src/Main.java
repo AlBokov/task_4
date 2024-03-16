@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service =  new BmiService();
-        double weightKg = 98;
+        int weightKg = 98;
         double heightMeters = 1.87;
         double res = service.calculate(weightKg, heightMeters);
         int index = (int)res;
